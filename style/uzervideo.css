@@ -1,0 +1,700 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 830px;
+  margin-left: 710px;
+  position: relative;
+  transition: margin-left 0.4s ease;
+}
+
+.uzer-foto {
+  margin-top: 16px;
+}
+
+.icons-user-top {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  position: absolute;
+  right: 610px;
+}
+
+.icon-name {
+  width: 60px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #cc2366, #bc1888, #e1306c, #f77737, #f09433, #e6683c, #dc2743
+  );
+  padding: 1.5px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+  padding: 1.5px;
+  box-sizing: border-box;
+}
+
+.name {
+  font-size: 10px;
+  margin-top: 5px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Окно фото */
+
+.icon-foto {
+  top: 55px;
+  width: 420px;
+  margin-top: 20px;
+  position: relative;
+  top: 70px;
+}
+
+.icon-foto-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.foto-img {
+  margin-right: 12px;
+}
+
+.foto-img img {
+  width: 32px;
+  height: 32px;
+}
+
+.nikname-time-subscribe {
+  flex: 1;
+}
+
+.nikname-foto {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.time-foto {
+  font-size: 12px;
+  color: rgb(115, 115, 115);
+  line-height: 18px;
+}
+
+.subscribe-foto {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(0, 124, 207);
+}
+
+.subscribe-foto:hover {
+  color: black;
+}
+
+.specification-foto {
+  font-size: 12px;
+}
+
+.additionally img {
+  width: 18x;
+  height: 18px;
+  right: 0;
+}
+
+.foto img {
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.label-foto {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.label-foto img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.label-foto img:hover {
+  opacity: 0.5;
+}
+
+.label-foto img:last-child {
+  margin-right: 0;
+}
+
+.label-foto-flag {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.description-foto {
+  cursor: pointer;
+}
+
+.description-foto h1 {
+  font-size: 14px;
+}
+
+.description-foto h2 {
+  font-size: 14px;
+}
+
+.description-foto h2 span {
+  font-size: 14px;
+  color: rgb(0, 124, 207);
+}
+
+.description-foto h3 {
+  font-size: 12px;
+}
+
+.description-foto h4 {
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.icon-foto-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.icon-foto-bottom input {
+  margin: 0;
+  padding: 0;
+  color: rgb(115, 115, 115);
+  border: none;
+  flex: 1;
+}
+
+.icon-foto-bottom img {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.icon-foto-bottom img:hover {
+  opacity: 0.5;
+}
+/* Окно рекомендации */
+
+.recommendations {
+  width: 270px;
+  margin-left: 140px;
+  margin-top: 30px;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.myname {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  }
+
+.myname img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.nikname-name {
+  margin-left: 8px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.nikname {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  cursor: pointer
+}
+
+.name {
+  font-size: 12px;
+  color:  rgb(115, 115, 115);
+  line-height: 16px;
+  margin: 0;
+}
+
+.switch {
+  color: rgb(0, 149, 246);
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer
+}
+
+.switch:hover {
+  color: rgb(24, 119, 242);
+}
+
+.specification {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.span1 {
+  color:  rgb(115, 115, 115);
+}
+
+.span2 {
+  cursor: pointer;
+}
+
+.span2:hover {
+  color:  rgb(115, 115, 115);
+}
+
+.users-recommendations {
+  margin-top: 10px;
+}
+
+.user-recommendations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.user-recommendations img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+/* Всплывающие окно */
+
+.icon-recommendations {
+  position: relative;
+}
+
+.icon-recommendations-tooltip {
+  position: absolute;
+  bottom: -365px;
+  background-color: white;
+  color: black;
+  width: 350px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 10px -10px 15px rgba(0, 0, 0, 0.07);
+  opacity: 0;
+  line-height: 18px;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 100;
+}
+
+.icon-recommendations:hover .icon-recommendations-tooltip {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.container-icon-recommendations-tooltip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-icon-recommendations-tooltip img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.nikname-tooltip {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.name-tooltip {
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+}
+
+.counter-tooltip {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.count-tooltip {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nomenclature-tooltip {
+  display: block;
+  font-size: 12px;
+}
+
+.closed-account {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.closed-account h1 {
+  font-size: 14px;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.closed-account p {
+  font-size: 12px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: rgb(115, 115, 115);
+  margin: 0;
+}
+
+.outer-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: conic-gradient( #cc2366, #bc1888, #e1306c, #f77737, #f09433, #e6683c, #dc2743);
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle {
+  background: #fff;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  width: 35px;
+  height: 35px;
+  transform: scale(0.7);
+  transform-origin: center;
+}
+
+.subscribe-tooltip {
+  padding: 15px;
+}
+
+.subscribe-tooltip button {
+  background-color:rgb(0, 149, 246);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.subscribe-tooltip button:hover {
+  background-color: rgb(0, 124, 207);
+}
+
+.subscribe-tooltip img {
+  transform: scaleX(-1);
+  width: 14px;
+  height: 14px;
+}
+/* продолжение */
+.nikname-recommended {
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 8px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.recommended {
+  color:  rgb(115, 115, 115);
+}
+
+.subscribe {
+  color: rgb(0, 149, 246);
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subscribe:hover {
+  color: rgb(24, 119, 242);
+}
+
+.footer-recommendations {
+  margin-top: 40px;
+}
+
+.footer-recommendations p {
+  font-size: 12px;
+  width: 300px;
+  line-height: 18px;
+  color:  rgb(199, 199, 199);
+}
+
+.p1 {
+  cursor: pointer;
+}
+
+@media (max-width: 1650px) {
+  .main {
+    margin-left: 600px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .main {
+    margin-left: 500px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .main {
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .main {
+    margin-left: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  position: relative;
+  }
+
+  .icons-user-top {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  position: absolute;
+  right: auto;
+  }
+
+  .recommendations {
+    display: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .main {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 735px) {
+  .main {
+    margin-left: 80px;
+  }
+}
+
+/* Сообщение кнопка*/
+
+.messege {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  width: 217px;
+  height: 56px;
+  right: 40px;
+  bottom: 30px;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease;
+  border-radius: 30px;
+  background-color: white;
+  padding-right: 16px;
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.messege:hover {
+  background-color: #f0f0f0;
+}
+
+.messege1-img {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+
+.messege-img img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.messege-text {
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.messege-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.messege-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #cc2366, #bc1888, #e1306c, #f77737, #f09433, #e6683c, #dc2743
+  );
+  padding: 1.5px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -6px;
+}
+
+.messege-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+  padding: 1.5px;
+  box-sizing: border-box;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 10px 25px;
+  font-size: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  
+  text-align: center;
+  white-space: wrap;
+  opacity: 0;
+  line-height: 18px;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 100;
+}
+
+.tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+.messege-icon:hover .tooltip {
+  opacity: 1;
+}
+
+@media (max-width: 750px) {
+  .messege {
+    display: none;
+  }
+
+  .messege1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    width: 56px;
+    height: 56px;
+    right: 40px;
+    bottom: 30px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .messege1-img {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+  }
+
+  .messege1:hover {
+    background-color: #f0f0f0;
+  }
+}
